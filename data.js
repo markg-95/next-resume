@@ -40,7 +40,7 @@ export const jobs = [
             'with traditional front-end languages.',
         start_date: 'January 2021',
         end_date: 'Now',
-        current: 'True',
+        current: 'True'
     },
     {
         id: '2',
@@ -60,7 +60,7 @@ export const jobs = [
             'managing the center, updating records in our database, and communicating with clients.',
         start_date: 'July 2016',
         end_date: 'July 2019',
-        current: 'True',
+        current: 'True'
     }
 ]
 
