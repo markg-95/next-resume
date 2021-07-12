@@ -28,7 +28,7 @@ export const skills = [
         id: '6',
         title: 'Data Analysis with Python',
         body: 'Exploratory data analysis and statistics using various python libraries.'
-    },
+    }
 
 ]
 
