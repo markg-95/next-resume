@@ -1,0 +1,17 @@
+.container {
+ padding: .25rem;
+}
+
+.list {
+
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+}
+
+.p {
+    color: rgb(112,112,112);
+}
