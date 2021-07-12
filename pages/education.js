@@ -7,7 +7,7 @@ export default function Education() {
     return (
         <>
             <div className={styles.container}>
-                <Image src={ciPhoto}/>
+                <Image src={ciPhoto} alt={'This image could not be loaded.'}/>
                 <p>
                     I graduated from CSUCI with a B.S. in Pure Mathematics. My coursework was mostly in
                 fundamental branches of mathematics like algebra, analysis, combinatorics, probability and statistics etc.
