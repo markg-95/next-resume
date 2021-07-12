@@ -1,6 +1,6 @@
-import { jobs } from '../../../data'
+import {examples, jobs} from '../../../data'
 
 export default function handler(req, res) {
-  res.status(200).json(jobs)
+  res.status(200).json(JSON.stringify(jobs))
 }
 
