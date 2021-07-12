@@ -16,21 +16,16 @@ export const skills = [
     },
     {
         id: '4',
-        title: 'Python for Data Analysis',
-        body: 'Data analysis / statistics with python libraries.'
-    },
-    {
-        id: '5',
         title: 'React',
         body: 'Javascript framework for front end UI development.'
     },
     {
-        id: '6',
+        id: '5',
         title: 'Next.js',
         body: 'React framework with multiple rendering methods, optimizations, etc.'
     },
     {
-        id: '7',
+        id: '6',
         title: 'Data Analysis with Python',
         body: 'Exploratory data analysis and statistics using various python libraries.'
     },
@@ -66,5 +61,14 @@ export const jobs = [
         start_date: 'July 2016',
         end_date: 'July 2019',
         current: 'True',
+    }
+]
+
+export const examples = [
+    {
+        id: 1,
+        title: 'Website for the Band HANNAH',
+        body: 'Website that I made, using a Flask backend, for the band HANNAH',
+        link: 'http://hannahisaband.herokuapp.com'
     }
 ]

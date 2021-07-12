@@ -5,7 +5,7 @@ const JobList = ({ jobs }) => {
   return (
     <div className={styles.container}>
       {jobs.map((job) => (
-        <JobItem job={job} />
+        <JobItem key={job.id} job={job} />
       ))}
     </div>
   )

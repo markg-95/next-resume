@@ -5,7 +5,7 @@ const SkillList = ({ skills }) => {
   return (
     <div className={styles.container}>
       {skills.map((skill) => (
-        <SkillItem skill={skill} />
+        <SkillItem key={skill.id} skill={skill} />
       ))}
     </div>
   )
